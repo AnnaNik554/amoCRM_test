@@ -411,7 +411,6 @@ footer {
 
   .footer__link {
     font-size: 14px;
-    word-break: break-all;
   }
 
   .footer__contacts {
@@ -432,5 +431,10 @@ footer {
   .copyright__link {
     margin-bottom: 60px;
   }
+}
 
+@media screen and (max-width: 340px) {
+  .footer__link {
+    word-break: break-all;
+  }
 }
